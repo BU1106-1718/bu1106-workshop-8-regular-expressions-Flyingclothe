@@ -41,7 +41,7 @@ Find a regular expression that will match a student number.
 `Hint: The numbers are (obviously) different for different students, so finding a regular expression that only matches this one student number is not enough. 
 Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** /G
+**Answer:** \G.*?6 this means this code will only match the student number that have G infront and 6 behind. It may only find one student number but still can match.
 
 #### Question 2
 
@@ -50,7 +50,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works, e.g. this here will match the character and that here makes sure it also works if there is no character in front of the number.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** \G\d\d\d\d\d\d\d\d  d basically means normal character, student numbers usually have 8 number with a captial G, so eight d with a captial G will match any student number.
 
 #### Question 3
 
@@ -59,7 +59,7 @@ Find a regular expression that will match a student number, based on the additio
  
 `Hint: Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** Replace this text with your answer.
+**Answer:** [A-Z]{0,9} If any letters will in front of the number, the area will be A to Z. Any numbers can be the number behind, the are will be 0 to 9.
 
 #### Question 4a
 
