@@ -70,6 +70,7 @@ Example: (01772) 201201, +44 (0)1772 201201
 `Hint: It's obvious, but just to spell it out: For this question, you should think about different ways of writing down a phone number. It's not about trying to come up with as many phone number as you can.`
 
 **Answer:** +44 7123 123456
+
 +44 (0)7123 123456
 
 
