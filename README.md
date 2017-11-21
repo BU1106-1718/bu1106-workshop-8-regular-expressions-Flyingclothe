@@ -41,7 +41,7 @@ Find a regular expression that will match a student number.
 `Hint: The numbers are (obviously) different for different students, so finding a regular expression that only matches this one student number is not enough. 
 Unless the way your regular expression works is obvious, please explain how it works.`
 
-**Answer:** \G.*?6 this means this code will only match the student number that have G infront and 6 behind. It may only find one student number but still can match.
+**Answer:** \G.*6 this means this code will only match the student number that have G infront and 6 behind. It may only find one student number but still can match.
 
 #### Question 2
 
